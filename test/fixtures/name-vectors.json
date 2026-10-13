@@ -1,0 +1,202 @@
+[
+  {
+    "input": "Chill Guy",
+    "normalized": "chiiiguy"
+  },
+  {
+    "input": "chillguy",
+    "normalized": "chiiiguy"
+  },
+  {
+    "input": "CHILL-GUY!",
+    "normalized": "chiiiguy"
+  },
+  {
+    "input": "ｃｈｉｌｌ ｇｕｙ",
+    "normalized": "chiiiguy"
+  },
+  {
+    "input": "Сhill Guy",
+    "normalized": "chiiiguy"
+  },
+  {
+    "input": "冷静哥",
+    "normalized": "冷静哥"
+  },
+  {
+    "input": "Moo Deng",
+    "normalized": "moodeng"
+  },
+  {
+    "input": "moo_deng 🦛",
+    "normalized": "moodeng"
+  },
+  {
+    "input": "  !! ",
+    "normalized": ""
+  },
+  {
+    "input": "ΑΒΓ test",
+    "normalized": "abytest"
+  },
+  {
+    "input": "Ⅻ roman",
+    "normalized": "ⅻroman",
+    "allowed": false
+  },
+  {
+    "input": "İstanbul",
+    "normalized": "istanbui"
+  },
+  {
+    "input": "x²",
+    "normalized": "x²",
+    "allowed": false
+  },
+  {
+    "input": "Sol ana",
+    "normalized": "soiana"
+  },
+  {
+    "input": "pvp.trade",
+    "normalized": "pvptrade"
+  },
+  {
+    "input": "ÉCOLE",
+    "normalized": "ecoie"
+  },
+  {
+    "input": "ß",
+    "normalized": "ß",
+    "allowed": false
+  },
+  {
+    "input": "B0NK",
+    "normalized": "bonk"
+  },
+  {
+    "input": "Bönk",
+    "normalized": "bonk"
+  },
+  {
+    "input": "𝐁𝐎𝐍𝐊",
+    "normalized": "bonk"
+  },
+  {
+    "input": "𝕭𝖔𝖓𝖐",
+    "normalized": "bonk"
+  },
+  {
+    "input": "ⒷⓄⓃⓀ",
+    "normalized": "bonk"
+  },
+  {
+    "input": "ᴮᵒⁿᵏ",
+    "normalized": "bonk"
+  },
+  {
+    "input": "Ｂｏｎｋ",
+    "normalized": "bonk"
+  },
+  {
+    "input": "Bоnk",
+    "normalized": "bonk"
+  },
+  {
+    "input": "dogwifhat",
+    "normalized": "dogwifhat"
+  },
+  {
+    "input": "D0GW1FH4T",
+    "normalized": "dogwifhat"
+  },
+  {
+    "input": "Pépé",
+    "normalized": "pepe"
+  },
+  {
+    "input": "Ćhïłł Ğüÿ",
+    "normalized": "chiiiguy"
+  },
+  {
+    "input": "Ⅻ",
+    "normalized": "ⅻ",
+    "allowed": false
+  },
+  {
+    "input": "Moo Deng 2",
+    "normalized": "moodeng2"
+  },
+  {
+    "input": "ẞ",
+    "normalized": "ß",
+    "allowed": false
+  },
+  {
+    "input": "ℂ𝕙𝕚𝕝𝕝",
+    "normalized": "chiii"
+  },
+  {
+    "input": "TRUΜP",
+    "normalized": "truμp",
+    "allowed": false
+  },
+  {
+    "input": "ᴛʀᴜᴍᴘ",
+    "normalized": "ᴛʀᴜᴍᴘ",
+    "allowed": false
+  },
+  {
+    "input": "Ꭲrump",
+    "normalized": "ꭲrump",
+    "allowed": false
+  },
+  {
+    "input": "ʙᴏɴᴋ",
+    "normalized": "ʙᴏɴᴋ",
+    "allowed": false
+  },
+  {
+    "input": "Bonk",
+    "normalized": "bonk",
+    "allowed": true
+  },
+  {
+    "input": "ペペ",
+    "normalized": "ペペ",
+    "allowed": true
+  },
+  {
+    "input": "도지",
+    "normalized": "도지",
+    "allowed": true
+  },
+  {
+    "input": "\u202EKNOB",
+    "normalized": "knob",
+    "raw_allowed": false
+  },
+  {
+    "input": "\u2066Chill Guy\u2069",
+    "normalized": "chiiiguy",
+    "raw_allowed": false
+  },
+  {
+    "input": "Bonk\u200F",
+    "normalized": "bonk",
+    "raw_allowed": false
+  },
+  {
+    "input": "Chill\nGuy",
+    "normalized": "chiiiguy",
+    "raw_allowed": false
+  },
+  {
+    "input": "Bo\u200Bnk",
+    "normalized": "bonk"
+  },
+  {
+    "input": "Dog 👨\u200D👩\u200D👧",
+    "normalized": "dog"
+  }
+]

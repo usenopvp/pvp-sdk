@@ -1,0 +1,81 @@
+{
+  "name": "@usenopvp/sdk",
+  "version": "0.1.0",
+  "description": "SDK and CLI for PVP (nopvp.app), the Solana launchpad where holders vote a token to its right name: launch tokens, trade, vote on renames and claim holder rewards.",
+  "license": "MIT",
+  "author": "PVP (https://nopvp.app)",
+  "homepage": "https://nopvp.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usenopvp/pvp-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/usenopvp/pvp-sdk/issues"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./vanity": {
+      "types": "./dist/vanity.d.ts",
+      "default": "./dist/vanity.js"
+    }
+  },
+  "bin": {
+    "pvp": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "docs",
+    "examples"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "solana",
+    "launchpad",
+    "memecoin",
+    "token",
+    "rename",
+    "meteora",
+    "pvp",
+    "nopvp",
+    "sdk",
+    "cli",
+    "bot"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "e2e": "tsx scripts/e2e-devnet.ts",
+    "pvp": "tsx src/cli.ts",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.32.1",
+    "@meteora-ag/cp-amm-sdk": "^1.5.1",
+    "@meteora-ag/dynamic-bonding-curve-sdk": "^1.5.13",
+    "@solana/spl-token": "^0.4.15",
+    "@solana/spl-token-metadata": "^0.1.6",
+    "@solana/web3.js": "^1.99.0",
+    "bn.js": "^5.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
